@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #1a1a1a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.indexrod1{
+    background-color: #1f1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.indexrod{
+        background-color: #1f1e1e;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+}
+.body1{
+    background-image: linear-gradient(#00000001, #00000063), url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.banner{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner .banner-text{
+    margin: 230px;
+    text-align: right;
+    padding: 0 0px;
+}
+
+h2 {
+    color: #00ff88;
+}
+h1 {
+    color: #fff;
+    font-size: 100px
+}
+h3 {
+    color: #00ff88;
+}
+a {
+    float: right;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #00ff88;
+    text-decoration: none; 
+}
+    a:hover, a:focus {
+      text-decoration: none;
+      color: #00ff88;
+      outline: none !important; }
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #23232e;
+    height: 8vh;
+    flex-wrap: wrap;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.h1tipos {
+    color: #00ff88;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 30px
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.container div {
+    flex: 1 1 300px;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#rodape{
+    margin: 0;
+    height: 50px;
+    background-color: #150b0b;
+    text-align: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#rodape a {
+    display: flex;
+    float: right;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+#rodape h5, p{
+    color: #fff
+}
+
+.main-login {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1contato {
+    font-size: 3vw;
+    color: #77ffc8;
+}
+
+.container-cont{
+    width: 500px;
+    margin: 0;
+    padding: 25px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff88;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-obrigado {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 220px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.header-obrigado {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.h1obrigado {
+    font-size: 32px;
+}
+
+.main-obrigado {
+    padding: 20px 0;
+}
+
+.pobrigado {
+    font-size: 18px;
+
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.aobrigado {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+    .card-login{
+        width: 85%;
+    }
+    h1 {
+        font-size:75px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .h1contato{
+        display: none;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .banner .banner-text{
+        align-items: center;
+        margin: 90px;
+        margin-bottom: 300px;
+        text-align: center;
+        padding: 0 0px;
+    }
+    h1 {
+        font-size: 90px;
+    }
+    .container-cont{
+        width: 400px;
+    }
+}
